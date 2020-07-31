@@ -15,3 +15,6 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+git clone https://github.com/LGA1150/openwrt-sysuh3c.git package/openwrt-sysuh3c
+./scripts/feeds update -a
+./scripts/feeds install -a
